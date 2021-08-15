@@ -1,0 +1,359 @@
+/*color #090202*/
+
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: silver;
+}
+hr{
+	color: purple;
+}
+img{
+	width: 130px;
+}
+.boxer{
+	background: black;
+	width: 100%;
+	height: 80px;
+	box-shadow: 1px 1px 5px;
+}
+.boxer nav{
+	display: flex;
+	justify-content: space-around;	
+}
+.boxer nav ul{
+	display: flex;
+	align-items: center;
+}
+a{
+	color: orange;
+	font-size: 20px;
+	text-decoration: none;
+	padding: 20px;
+	height: 50px;
+	transition: all 800ms;
+}
+a:hover{
+	color: white;
+	height: 100px;
+}
+.box{
+	background: #191313;
+	height: 10px;
+}
+
+/* position absolute*/
+
+.contenedor{
+	overflow: inherit;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	position: absolute;
+	left: 200px;
+	margin: -449px auto;	   
+}
+.list img{
+	width: 100px;
+	margin: 2px;
+	border: 4px solid darkmagenta;	
+}
+.list img:hover{
+	transform: scale(1.5);
+	transition: all 600ms ease;
+	cursor: pointer;
+}
+.dark0{
+    background: #090202;
+    margin: 2px;
+    width: 166px;
+    height: 445px;
+}
+.dark{
+	display: flex;
+}
+.dark figure{
+	overflow: hidden;
+    margin: 2px;
+    border: 1px solid  red;
+    height: 70px;
+}
+.dark figure img{
+	width: 50px;
+	heigth: 100px;
+	transition: all 800ms ease-out;
+	cursor: pointer;
+}
+.dark figure:hover > img{
+	transition: all 800ms ease-out;
+	transform: scale(1.3);
+}
+.dark1{
+	display: flex;
+}
+.dark1 figure{
+	overflow: hidden;
+	margin: 2px;
+	border: 1px solid  red;
+	height: 70px;
+}
+.dark1 figure img{
+	width: 50px;
+	heigth: 100px;
+	transition: all 800ms ease-out;
+	cursor: pointer;
+}
+.dark1 figure:hover > img{
+	transition: all 800ms ease-out;
+	transform: scale(1.3);
+}
+.dark2{
+	display: flex;
+}
+.dark2 figure{
+	overflow: hidden;
+	margin: 2px;
+	border: 1px solid  red;
+	height: 70px;
+}
+.dark2 figure img{
+	width: 50px;
+	heigth: 100px;
+	transition: all 800ms ease-out;
+	cursor: pointer;
+}
+.dark2 figure:hover > img{
+	transition: all 800ms ease-out;
+	transform: scale(1.3);
+}
+.dark3{
+	display: flex;
+}
+.dark3 figure{
+	overflow: hidden;
+	margin: 2px;
+	border: 1px solid  red;
+	height: 70px;
+}
+.dark3 figure img{
+	width: 50px;
+	heigth: 100px;
+	transition: all 800ms ease-out;
+	cursor: pointer;
+}
+.dark3 figure:hover > img{
+	transition: all 800ms ease-out;
+	transform: scale(1.3);
+}
+.dark4{
+	display: flex;
+}
+.dark4 figure{
+	overflow: hidden;
+	margin: 2px;
+	border: 1px solid  red;
+	height: 70px;
+}
+.dark4 figure img{
+	width: 50px;
+	heigth: 100px;
+	transition: all 800ms ease-out;
+	cursor: pointer;
+}
+.dark4 figure:hover > img{
+	transition: all 800ms ease-out;
+	transform: scale(1.3);
+}
+.dark5{
+	display: flex;
+}
+.dark5 figure{
+	overflow: hidden;
+	margin: 2px;
+	border: 1px solid  red;
+	height: 70px;
+}
+.dark5 figure img{
+	width: 50px;
+	heigth: 100px;
+	transition: all 800ms ease-out;
+	cursor: pointer;
+}
+.dark5 figure:hover > img{
+	transition: all 800ms ease-out;
+	transform: scale(1.3);
+}
+
+/*position absolute*/
+
+.dark6{
+	display: flex;
+	justify-content: center;
+}
+.dark6 figure{
+	overflow: hidden;
+	margin: 2px;
+	position: absolute;
+	top: 98px;
+	left: 57px;
+	border: 1px solid  red;
+	height: 70px;
+}
+.dark6 figure img{
+	width: 50px;
+	heigth: 100px;
+	transition: all 800ms ease-out;
+	cursor: pointer;
+}
+.dark6 figure:hover > img{
+	transition: all 800ms ease-out;
+	transform: scale(1.3);
+}
+.dark7{
+	display: flex;
+	justify-content: center;
+}
+.dark7 figure{
+	overflow: hidden;
+	margin: 2px;
+	position: absolute;
+	top: 172px;
+	left: 57px;
+	border: 1px solid  red;
+	height: 70px;
+}
+.dark7 figure img{
+	width: 50px;
+	heigth: 100px;
+	transition: all 800ms ease-out;
+	cursor: pointer;
+}
+.dark7 figure:hover > img{
+	transition: all 800ms ease-out;
+	transform: scale(1.3);
+}
+.dark8{
+	display: flex;
+	justify-content: center;
+}
+.dark8 figure{
+	overflow: hidden;
+	margin: 2px;
+	position: absolute;
+	top: 246px;
+	left: 57px;
+	border: 1px solid  red;
+	height: 70px;
+}
+.dark8 figure img{
+	width: 50px;
+	heigth: 100px;
+	transition: all 800ms ease-out;
+	cursor: pointer;
+}
+.dark8 figure:hover > img{
+	transition: all 800ms ease-out;
+	transform: scale(1.3);
+}
+.dark9{
+	display: flex;
+	justify-content: center;
+}
+.dark9 figure{
+	overflow: hidden;
+	margin: 2px;
+	position: absolute;
+	top: 320px;
+	left: 57px;
+	border: 1px solid  red;
+	height: 70px;
+}
+.dark9 figure img{
+	width: 50px;
+	heigth: 100px;
+	transition: all 800ms ease-out;
+	cursor: pointer;
+}
+.dark9 figure:hover > img{
+	transition: all 800ms ease-out;
+	transform: scale(1.3);
+}
+.dark10{
+	display: flex;
+	justify-content: center;
+}
+.dark10 figure{
+	overflow: hidden;
+	margin: 2px;
+	position: absolute;
+	top: 394px;
+	left: 57px;
+	border: 1px solid  red;
+	height: 70px;
+}
+.dark10 figure img{
+	width: 50px;
+	heigth: 100px;
+	transition: all 800ms ease-out;
+	cursor: pointer;
+}
+.dark10 figure:hover > img{
+	transition: all 800ms ease-out;
+	transform: scale(1.3);
+}
+.dark11{
+	display: flex;
+	justify-content: center;
+}
+.dark11 figure{
+	overflow: hidden;
+	margin: 2px;
+	position: absolute;
+	top: 468px;
+	left: 57px;
+	border: 1px solid  red;
+	height: 70px;
+}
+.dark11 figure img{
+	width: 50px;
+	heigth: 100px;
+	transition: all 800ms ease-out;
+	cursor: pointer;
+}
+.dark11 figure:hover > img{
+	transition: all 800ms ease-out;
+	transform: scale(1.3);
+}
+
+/*position absolute*/
+
+.dark12{
+	display: flex;
+	justify-content: center;
+}
+.dark12 figure{
+	overflow: hidden;
+	margin: 2px;
+	position: absolute;
+	top: 98px;
+	left: 112px;
+	border: 1px solid  red;
+	height: 70px;
+}
+.dark12 figure img{
+	width: 50px;
+	heigth: 100px;
+	transition: all 800ms ease-out;
+	cursor: pointer;
+}
+.dark12 figure:hover > img{
+	transition: all 800ms ease-out;
+	transform: scale(1.3);
+}
+
+
+
+
